@@ -1,5 +1,5 @@
 body {
-    color: #333333;
+    color: white;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: darkslategray;
 }
 
 .main-content {
@@ -24,14 +25,19 @@ h1 {
 }
 
 header a {
-    color: #888888;
     margin-right: 16px;
     text-decoration: none;
+}
 
+.nav-link {
+    color: #0E1C36;
 }
 
 .portrait {
     width: 250px;
+    display: block;
+    margin: auto;
+    padding-bottom: 16px;
 }
 
 input {
@@ -47,8 +53,17 @@ button {
     padding: 8px;
 }
 
+form {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.main-content p {
+    text-align: center;
+}
+
 footer {
-    color: #888888;
+    color: #0E1C36;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
